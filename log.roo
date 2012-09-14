@@ -1,0 +1,41 @@
+// Spring Roo 1.2.2.RELEASE [rev 7d75659] log opened at 2012-09-14 13:01:17
+project --topLevelPackage de.mayflower.FilmMarket
+persistence setup --provider HIBERNATE --database H2_IN_MEMORY 
+database properties list
+entity jpa --class ~.domain.market
+field string name
+field date --type java.util.Date --fieldName fromDate
+field date --type java.util.Date --fieldName toDate
+field number --type java.lang.Long --fieldName budget
+entity jpa --class ~.domain.ShortForm
+field string --fieldName licensor
+field string --fieldName licensee
+field date --type java.util.Date --fieldName fromDate
+field date --type java.util.Date --fieldName toDate
+field number --type java.lang.long --fieldName licensefee
+field string --fieldName country
+// [failed] field string --fieldName right
+field string --fieldName licenseright
+entity jpa --class ~.domain.Market
+help
+focus --class  ~.domain.ShortForm
+database properties list
+entity jpa --class ~.domain.Market
+field string --fieldName name
+field date --type java.util.Date --fieldName fromDate
+field date --type java.util.Date --fieldName toDate
+field number --type java.lang.Long --fieldName budget
+focus --class ~.domain.ShortForm
+field set --fieldName shortForms --type ~.domain.Market
+// [failed] field reference --fieldName market --type ~.domain.ShortForm --class ~.domain.Market --cardinality ONE_TO_MANY 
+field set --fieldName shortForms --type ~.domain.ShortForm --class ~.domain.Market --cardinality ONE_TO_MANY 
+field reference --fieldName market --type ~.domain.ShortForm
+// [failed] field reference --fieldName market --type ~.domain.ShortForm
+field reference --fieldName market --type ~.domain.ShortForm
+field set --fieldName shortForms --type ~.domain.ShortForm --class ~.domain.Market --cardinality ONE_TO_MANY 
+// [failed] field reference --fieldName market --type ~.domain.ShortForm
+focus --class ~.domain.ShortForm
+field reference --fieldName market --type ~.domain.Market
+test integration 
+web mvc setup
+web mvc all --package de.mayflower.filmmarket.web

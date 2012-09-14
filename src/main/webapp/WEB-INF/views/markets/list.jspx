@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_de_mayflower_filmmarket_domain_Market" items="${markets}" z="EXJIhXptaprOspxhHKR+ib8iP5I=">
+        <table:table data="${markets}" id="l_de_mayflower_filmmarket_domain_Market" path="/markets" z="Em41wfeIN+fL7Y5nRsPjHzElNXk=">
+            <table:column id="c_de_mayflower_filmmarket_domain_Market_name" property="name" z="PLkP/i4O+LkltcpetWT3xJooEQI="/>
+            <table:column date="true" dateTimePattern="${market_fromdate_date_format}" id="c_de_mayflower_filmmarket_domain_Market_fromDate" property="fromDate" z="W89JNX/VExGHHwkrvU1iHNQ27aM="/>
+            <table:column date="true" dateTimePattern="${market_todate_date_format}" id="c_de_mayflower_filmmarket_domain_Market_toDate" property="toDate" z="VPc+Ks6gQ5DnP7XVj+kOvZ4Yyxo="/>
+            <table:column id="c_de_mayflower_filmmarket_domain_Market_budget" property="budget" z="dW8Izsw8+QXoYcSuX9g3y4+fxOo="/>
+        </table:table>
+    </page:list>
+</div>
