@@ -1,0 +1,9 @@
+<aspectj>
+<aspects>
+<aspect name="de.mayflower.filmmarket.domain.ShortFormIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="de.mayflower.filmmarket.domain.ShortFormDataOnDemand_Roo_Configurable"/>
+<aspect name="de.mayflower.filmmarket.domain.ShortFormIntegrationTest_Roo_Configurable"/>
+<aspect name="de.mayflower.filmmarket.domain.ShortFormDataOnDemand_Roo_DataOnDemand"/>
+</aspects>
+</aspectj>
+
