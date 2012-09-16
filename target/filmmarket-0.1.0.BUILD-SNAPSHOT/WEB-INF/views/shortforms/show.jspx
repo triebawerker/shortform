@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_de_mayflower_filmmarket_domain_ShortForm" object="${shortform}" path="/shortforms" z="UBmtVF5QYyZeYxiluG5cGwKUku4=">
+        <field:display field="licensor" id="s_de_mayflower_filmmarket_domain_ShortForm_licensor" object="${shortform}" z="K56CoAX3cYvhfzysmcWlCKgGxJU="/>
+        <field:display field="licensee" id="s_de_mayflower_filmmarket_domain_ShortForm_licensee" object="${shortform}" z="C4xZYBeFNl4LWFe7u2GiyswpqWg="/>
+        <field:display date="true" dateTimePattern="${shortForm_fromdate_date_format}" field="fromDate" id="s_de_mayflower_filmmarket_domain_ShortForm_fromDate" object="${shortform}" z="mXDVCnXzZVXkRcRvyNW72dka4xI="/>
+        <field:display date="true" dateTimePattern="${shortForm_todate_date_format}" field="toDate" id="s_de_mayflower_filmmarket_domain_ShortForm_toDate" object="${shortform}" z="zbE42XIvd6nd11YQFDgbVFfiiJ4="/>
+        <field:display field="licensefee" id="s_de_mayflower_filmmarket_domain_ShortForm_licensefee" object="${shortform}" z="hRA12mSkUNwvidBM/3o/cw2x6Fk="/>
+        <field:display field="country" id="s_de_mayflower_filmmarket_domain_ShortForm_country" object="${shortform}" z="/AX+4YT8id+LCQA+SEBJzwcn4Tk="/>
+        <field:display field="licenseright" id="s_de_mayflower_filmmarket_domain_ShortForm_licenseright" object="${shortform}" z="8LSIY/T1f+/yblnOi0UvfvXdY88="/>
+        <field:display field="market" id="s_de_mayflower_filmmarket_domain_ShortForm_market" object="${shortform}" z="vJf4CvV5U9wX6+JjPkYcYvK3+lU="/>
+    </page:show>
+</div>

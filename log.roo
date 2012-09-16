@@ -39,3 +39,7 @@ field reference --fieldName market --type ~.domain.Market
 test integration 
 web mvc setup
 web mvc all --package de.mayflower.filmmarket.web
+// Spring Roo 1.2.1.RELEASE [rev 6eae723] log opened at 2012-09-16 22:40:53
+persistence setup --provider HIBERNATE --database MYSQL --userName admin --password micha --databaseName intellectual_property
+web mvc all --package de.mayflower.filmmarket.web
+perform eclipse

@@ -1,0 +1,18 @@
+<aspectj>
+<aspects>
+<aspect name="de.mayflower.filmmarket.domain.ShortForm_Roo_JavaBean"/>
+<aspect name="de.mayflower.filmmarket.domain.ShortForm_Roo_Jpa_ActiveRecord"/>
+<aspect name="de.mayflower.filmmarket.domain.ShortForm_Roo_ToString"/>
+<aspect name="de.mayflower.filmmarket.domain.Market_Roo_JavaBean"/>
+<aspect name="de.mayflower.filmmarket.domain.ShortForm_Roo_Configurable"/>
+<aspect name="de.mayflower.filmmarket.web.ShortFormController_Roo_Controller"/>
+<aspect name="de.mayflower.filmmarket.domain.Market_Roo_Jpa_ActiveRecord"/>
+<aspect name="de.mayflower.filmmarket.domain.ShortForm_Roo_Jpa_Entity"/>
+<aspect name="de.mayflower.filmmarket.domain.Market_Roo_Configurable"/>
+<aspect name="de.mayflower.filmmarket.domain.Market_Roo_Jpa_Entity"/>
+<aspect name="de.mayflower.filmmarket.web.MarketController_Roo_Controller"/>
+<aspect name="de.mayflower.filmmarket.domain.Market_Roo_ToString"/>
+<aspect name="de.mayflower.filmmarket.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+</aspects>
+</aspectj>
+

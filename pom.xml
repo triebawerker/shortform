@@ -142,11 +142,6 @@
             <artifactId>spring-aspects</artifactId>
             <version>${spring.version}</version>
         </dependency>
-    <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <version>1.3.164</version>
-        </dependency>
         <dependency>
             <groupId>org.hibernate</groupId>
             <artifactId>hibernate-core</artifactId>
@@ -237,7 +232,7 @@
                 </exclusion>
             </exclusions>
         </dependency>
-    <dependency>
+        <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-webmvc</artifactId>
             <version>${spring.version}</version>
@@ -295,11 +290,16 @@
             <artifactId>commons-codec</artifactId>
             <version>1.5</version>
         </dependency>
-    <dependency>
+        <dependency>
             <groupId>org.apache.tiles</groupId>
             <artifactId>tiles-jsp</artifactId>
             <version>2.2.2</version>
         </dependency>
+						<dependency>
+						  <groupId>mysql</groupId>
+						  <artifactId>mysql-connector-java</artifactId>
+						  <version>5.1.21</version>
+						</dependency>
     </dependencies>
     <build>
         <plugins>

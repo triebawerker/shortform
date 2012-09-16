@@ -17,7 +17,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<Market, String> ApplicationConversionServiceFactoryBean.getMarketToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<de.mayflower.filmmarket.domain.Market, java.lang.String>() {
             public String convert(Market market) {
-                return new StringBuilder().append(market.getName()).append(' ').append(market.getFromDate()).append(' ').append(market.getToDate()).append(' ').append(market.getBudget()).toString();
+                return new StringBuilder().append(market.getName()).append(" ").append(market.getFromDate()).append(" ").append(market.getToDate()).append(" ").append(market.getBudget()).toString();
             }
         };
     }
@@ -41,7 +41,7 @@ privileged aspect ApplicationConversionServiceFactoryBean_Roo_ConversionService 
     public Converter<ShortForm, String> ApplicationConversionServiceFactoryBean.getShortFormToStringConverter() {
         return new org.springframework.core.convert.converter.Converter<de.mayflower.filmmarket.domain.ShortForm, java.lang.String>() {
             public String convert(ShortForm shortForm) {
-                return new StringBuilder().append(shortForm.getLicensor()).append(' ').append(shortForm.getLicensee()).append(' ').append(shortForm.getFromDate()).append(' ').append(shortForm.getToDate()).toString();
+                return new StringBuilder().append(shortForm.getLicensor()).append(" ").append(shortForm.getLicensee()).append(" ").append(shortForm.getFromDate()).append(" ").append(shortForm.getToDate()).toString();
             }
         };
     }

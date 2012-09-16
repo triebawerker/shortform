@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_market" z="mA7s2sHcuGTYEocV2WadMbRPa6o=">
+            <menu:item id="i_market_new" messageCode="global_menu_new" url="/markets?form" z="FXR8OM9vzyUSqLEJt9MMnGfFM1I="/>
+            <menu:item id="i_market_list" messageCode="global_menu_list" url="/markets?page=1&amp;size=${empty param.size ? 10 : param.size}" z="8Lf383O7RP3Un97dw8aVG2iDy8E="/>
+        </menu:category>
+        <menu:category id="c_shortform" z="j59I8vQzcDrgKNqjT8ylMAiuP2g=">
+            <menu:item id="i_shortform_new" messageCode="global_menu_new" url="/shortforms?form" z="bgLWuw/+Y818HkWUZvCPLsRzznU="/>
+            <menu:item id="i_shortform_list" messageCode="global_menu_list" url="/shortforms?page=1&amp;size=${empty param.size ? 10 : param.size}" z="5p2eJ1+4hYEh1fxArMucpCsnr/0="/>
+        </menu:category>
+    </menu:menu>
+</div>
